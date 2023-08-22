@@ -15,7 +15,7 @@ export default {
     //出口
     output: {
         file: path.resolve(__dirnameNew, './lib/index.js'),
-        format: 'umd',//输出格式
+        // format: 'umd',//输出格式
         sourcemap: true,//生成sourcemap文件，定位问题，否则定位的代码是打包后的文件
     },
     plugins: [
