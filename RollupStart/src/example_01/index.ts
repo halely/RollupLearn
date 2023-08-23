@@ -1,3 +1,9 @@
+
+/*
+ * @description  typescript封装LocalStorage并支持过期时间
+ * @author haleLy 2023-08-23 11:17:43
+*/
+
 //expire  过期时间key permanent 永久不过期
 import { StorageCls, Str, Expire, Date, Result } from "./type";
 import { Dictionaries } from "./enum";
