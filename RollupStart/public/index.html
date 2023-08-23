@@ -7,18 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <script type="module">
-        import { Storage } from '../lib/index.js'
-        const sl = new Storage()
-        //五秒后过期
-        sl.set('a', 123, new Date().getTime() + 5000)
- 
-       let time=setInterval(() => {
-            const a = sl.get('a')
-            console.log(a)
-            if(!a.value) clearInterval(time)
-        },500)
-    </script>
+    <script  src="../lib/index.js"></script>
 
 </body>
 </html>
